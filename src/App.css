@@ -1,5 +1,12 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+  background-color: #c0c2c3;
+  max-width: 100%;
+  margin: 2em;
+  border-radius: 5em;
 }
 
 .App-logo {
@@ -36,3 +43,10 @@
     transform: rotate(360deg);
   }
 }
+
+.Input-container {
+  font-size: medium;
+}
+
+
+  
